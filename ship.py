@@ -11,7 +11,7 @@ class Ship:
         self.rect.midbottom = self.screen_rect.midbottom
         self.moving_right = False
         self.moving_left = False
-        self.speed = 1
+        self.speed = 5
 
     def update(self):
         if self.moving_right and self.rect.right < self.screen_rect.right:
